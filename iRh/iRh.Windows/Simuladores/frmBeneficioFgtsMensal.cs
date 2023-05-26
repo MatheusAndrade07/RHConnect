@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace iRh.Windows.Simuladores
 {
-    public partial class frmBeneficioDepositoFgts : Form
+    public partial class frmBeneficioFgtsMensal : Form
     {
-        public frmBeneficioDepositoFgts()
+        public frmBeneficioFgtsMensal()
         {
             InitializeComponent();
         }

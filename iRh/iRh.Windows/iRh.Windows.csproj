@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="Core\Fgts.cs" />
     <Compile Include="Core\Inss.cs" />
+    <Compile Include="Core\ValeTransporte.cs" />
     <Compile Include="PrincipalMdi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,11 +69,11 @@
     <Compile Include="Simuladores\frmBeneficioAdcionalNoturno.Designer.cs">
       <DependentUpon>frmBeneficioAdcionalNoturno.cs</DependentUpon>
     </Compile>
-    <Compile Include="Simuladores\frmBeneficioDepositoFgts.cs">
+    <Compile Include="Simuladores\frmBeneficioFgtsMensal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Simuladores\frmBeneficioDepositoFgts.Designer.cs">
-      <DependentUpon>frmBeneficioDepositoFgts.cs</DependentUpon>
+    <Compile Include="Simuladores\frmBeneficioFgtsMensal.Designer.cs">
+      <DependentUpon>frmBeneficioFgtsMensal.cs</DependentUpon>
     </Compile>
     <Compile Include="Simuladores\frmBeneficioFerias.cs">
       <SubType>Form</SubType>
@@ -141,8 +142,8 @@
     <EmbeddedResource Include="Simuladores\frmBeneficioAdcionalNoturno.resx">
       <DependentUpon>frmBeneficioAdcionalNoturno.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Simuladores\frmBeneficioDepositoFgts.resx">
-      <DependentUpon>frmBeneficioDepositoFgts.cs</DependentUpon>
+    <EmbeddedResource Include="Simuladores\frmBeneficioFgtsMensal.resx">
+      <DependentUpon>frmBeneficioFgtsMensal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmBeneficioFerias.resx">
       <DependentUpon>frmBeneficioFerias.cs</DependentUpon>
@@ -273,6 +274,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wp2808717-black-gold-wallpaper-hd.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,6 @@
 ﻿namespace iRh.Windows.Simuladores
 {
-    partial class frmBeneficioDepositoFgts
+    partial class frmBeneficioFgtsMensal
     {
         /// <summary>
         /// Required designer variable.
@@ -31,8 +31,8 @@
             this.txtSalario = new System.Windows.Forms.TextBox();
             this.btnCalcularValeTransporte = new System.Windows.Forms.Button();
             this.panelFgts = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelFgts.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,16 +62,6 @@
             this.panelFgts.Size = new System.Drawing.Size(179, 92);
             this.panelFgts.TabIndex = 4;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(103, 38);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(254, 21);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Digite abaixo o valor do seu Salário";
-            // 
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
@@ -82,16 +72,28 @@
             this.lblResultado.Text = "Resultado";
             this.lblResultado.Visible = false;
             // 
-            // frmBeneficioDepositoFgts
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(103, 38);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(254, 21);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Digite abaixo o valor do seu Salário";
+            // 
+            // frmBeneficioFgtsMensal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources.rh_digital1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(460, 318);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panelFgts);
             this.Controls.Add(this.btnCalcularValeTransporte);
             this.Controls.Add(this.txtSalario);
-            this.Name = "frmBeneficioDepositoFgts";
+            this.Name = "frmBeneficioFgtsMensal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Benefício Deposito FGTS";
             this.panelFgts.ResumeLayout(false);

@@ -126,7 +126,7 @@
             this.menuBeneficioDepositoFgts.Image = global::iRh.Windows.Properties.Resources.download__5_;
             this.menuBeneficioDepositoFgts.Name = "menuBeneficioDepositoFgts";
             this.menuBeneficioDepositoFgts.Size = new System.Drawing.Size(249, 22);
-            this.menuBeneficioDepositoFgts.Text = "Beneficio de Deposito FGTS";
+            this.menuBeneficioDepositoFgts.Text = "FGTS Mensal";
             this.menuBeneficioDepositoFgts.Click += new System.EventHandler(this.menuBeneficioDepositoFgts_Click);
             // 
             // menuBeneficioFerias
@@ -192,7 +192,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.Name = "PrincipalMdi";
-            this.Text = "WN SOFTWARES";
+            this.Text = "RH Connect";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Move += new System.EventHandler(this.PrincipalMdi_Move);
             this.menuPrincipal.ResumeLayout(false);

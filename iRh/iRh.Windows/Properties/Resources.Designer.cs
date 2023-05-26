@@ -372,5 +372,15 @@ namespace iRh.Windows.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wp2808717_black_gold_wallpaper_hd {
+            get {
+                object obj = ResourceManager.GetObject("wp2808717-black-gold-wallpaper-hd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

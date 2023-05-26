@@ -49,7 +49,7 @@ namespace iRh.Windows
 
         private void menuBeneficioDepositoFgts_Click(object sender, EventArgs e)
         {
-            var form = new frmBeneficioDepositoFgts();
+            var form = new frmBeneficioFgtsMensal();
             form.MdiParent = this;
             form.Show();
         }
