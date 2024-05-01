@@ -6,7 +6,6 @@
         const double Faixa02 = 2571.29;
         const double Faixa03 = 2856.94;
         const double Faixa04 = 7507.49;
-        //FUNCAO  RETORNO  NOME()
         public static double Calcula(double salario)
         {
             const double Faixa01 = 1302.0;
